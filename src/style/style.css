@@ -1,0 +1,109 @@
+/*
+    CREACIÓN 06-04-1990
+    POR IXCHEL MARTINEZ 
+    VERSION... 1.0 
+*/
+
+/*POR IMPORTAR...*/
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500&display=swap');
+@font-face {
+    font-family: titles;
+    src: url(Gloss_And_Bloom.ttf);
+}
+
+
+/*ESTILOS ETIQUETAS*/
+a{
+    font-family: 'Advent Pro Medium', sans-serif;
+    color: #5E2B43;
+
+}
+body{
+    background-color: #F3D8CD;
+    margin: unset;
+}
+
+footer{
+    padding: unset;
+}
+/*ESTILOS PARA ID*/
+#registerButton{
+    margin-left: 1em;
+}
+
+#logIn{
+    color: #F0637A;
+}
+
+#hatchBoxText{
+    font-family: titles;
+    color: #5E2B43;
+    font-size: 4em;
+}
+#createdByText{
+    font-family: 'Advent Pro Light', sans-serif;
+    margin-right: 2em;
+
+}
+
+
+/*ESTILO POR CLASE*/
+.flex-container{
+    display: flex;
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-link-container{
+    background-color: #F1AFA9;
+    display: inline; 
+    padding-right: 30px;
+}
+
+.top-bar-link {
+    text-decoration: none;
+    color: brown;
+}
+.top-bar-logo{
+    padding-left: 1.5em;
+    width: 3em;
+}
+.button {
+    background-color: #F0637A;
+    transition-duration: 0.4s;
+    font-family: 'Advent Pro Medium', sans-serif;
+    margin-right: 1em;    
+  }
+
+.button:hover {
+    background-color: #F0637A; 
+    color: white;
+}
+
+.sliderImage{
+    width: 100%;    
+}
+
+.slider-text-container{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.audio-Controls{
+    display: flex;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid #F0637A;
+  }
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+.imagesTable{
+    width: 33%;
+}
